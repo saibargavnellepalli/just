@@ -1,0 +1,29 @@
+/* CSS file (e.g., styles.css) */
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+  gap: 20px; /* Adjust the gap between items as needed */
+  justify-items: center; /* Horizontally center items within each grid cell */
+}
+
+.movie {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.movie img {
+  max-width: 100%;
+  height: auto;
+}
+
+.movie p {
+  margin-bottom: 5px; 
+}
+
+
+.movie h1 {
+  margin-bottom: -10px; /* You can adjust this value to control the spacing */
+}
+
+/* Add any other styling you want for your movie components */
